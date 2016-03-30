@@ -18,5 +18,5 @@ for (var i = 0; i < size; i++) {
 
 var time_start = now();
 var result = sma(datapoints, period);
-console.log('Total time taken: ' + (now() - time_start));
+console.log('Total time taken: ' + (now() - time_start) + 'ms');
 console.log(result.filter(function(val) {return val !== null}).length);

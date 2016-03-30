@@ -13,7 +13,6 @@ test(t => {
         const result = sma([], 2);
     }
     catch (e) {
-        console.log(e.message);
         t.same(new Error('Period can not be larger than the number of datapoints'), e);
     }
 });
@@ -23,7 +22,6 @@ test(t => {
         const result = sma(1, 1);
     }
     catch (e) {
-        console.log(e.message);
         t.same(new Error('First argument(datapoints) must be an array'), e);
     }
 });
@@ -33,7 +31,6 @@ test(t => {
         const result = sma(1, [1]);
     }
     catch (e) {
-        console.log(e.message);
         t.same(new Error('Second argument(period) must be a number'), e);
     }
 });
