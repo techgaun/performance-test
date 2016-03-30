@@ -1,0 +1,30 @@
+{
+  "name": "simple-moving-average",
+  "version": "0.1.0",
+  "description": "Calculate simple moving average",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techgaun/performance-test.git"
+  },
+  "keywords": [
+    "sma",
+    "moving",
+    "average",
+    "simple",
+    "moving",
+    "average"
+  ],
+  "author": "techgaun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techgaun/performance-test/issues"
+  },
+  "homepage": "https://github.com/techgaun/performance-test#readme",
+  "devDependencies": {
+    "ava": "^0.13.0"
+  }
+}
