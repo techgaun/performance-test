@@ -34,3 +34,13 @@ node_modules
 
 # nyc output
 .nyc_output
+
+#ruby stuffs
+.bundle/
+.yardoc
+Gemfile.lock
+_yardoc/
+doc/
+pkg/
+spec/reports/
+tmp/

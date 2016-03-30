@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+
+# Specify your gem's dependencies in sma.gemspec
+gemspec
+gem 'sma', :path => "./lib/sma/sma"
