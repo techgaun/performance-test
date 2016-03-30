@@ -9,6 +9,12 @@ test(t => {
 });
 
 test(t => {
+    const result = sma([-2, -1, 0, 1, 2, 3], 2);
+    t.same([null, -1.5, -0.5, 0.5, 1.5, 2.5], result);
+    t.same(5, result.filter(function(val) {return val !== null}).length);
+});
+
+test(t => {
     try {
         const result = sma([], 2);
     }
